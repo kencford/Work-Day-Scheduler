@@ -70,6 +70,7 @@ function saveText() {
 // console.log(localStorage.getItem('hour-13'));
 
 //restoring from local storage
+$("#hour-8 .description").val(localStorage.getItem("hour-8"));
 $("#hour-9 .description").val(localStorage.getItem("hour-9"));
 $("#hour-10 .description").val(localStorage.getItem("hour-10"));
 $("#hour-11 .description").val(localStorage.getItem("hour-11"));
